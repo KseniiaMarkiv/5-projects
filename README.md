@@ -11,7 +11,9 @@
 [Look &#128513;](https://kseniiamarkiv.github.io/5-projects/3_third-project)
 ![Link](https://kseniiamarkiv.github.io/5-projects/3_third-project/third.jpg)
 ### 4. Timer
-[Look &#128513;](https://kseniiamarkiv.github.io/5-projects/4_forth-project)
+[Look &#128513;](https://kseniiamarkiv.github.io/5-projects/4_forth-project/index.html)
+![Link](https://kseniiamarkiv.github.io/5-projects/4_forth-project/forth.jpg)
+[Look &#128513;](https://kseniiamarkiv.github.io/5-projects/4_forth-project/index2.html)
 ![Link](https://kseniiamarkiv.github.io/5-projects/4_forth-project/thorth.png)
 ### 5. To-do list
 [Look &#128513;](https://kseniiamarkiv.github.io/5-projects/5_fifth-project)
