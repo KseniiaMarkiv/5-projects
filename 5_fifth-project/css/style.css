@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Lora:ital@1&Pacifico&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background: url(jumpotron.jpg) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container {
+    width: 350px;
+    padding: 25px 20px;
+    background-color: rgba(255, 255, 255, 0.526);
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.626);
+    ;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+input[placeholder] {
+    padding-left: 20px;
+}
+
+#add-task {
+    flex: 1;
+    transition: .3s;
+    font-size: 1rem;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: rgba(0, 0, 0, 0.626);
+    border: rgba(0, 0, 0, 0.626) solid 2px;
+    border-radius: 20px;
+}
+
+#add-task:hover {
+    background-color: rgba(0, 0, 0, 0.626);
+    color: white;
+}
+
+.task {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.526);
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px 5px 0px 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+    color: rgba(0, 0, 0, 0.626);
+    flex: 4;
+    padding: 2px;
+    font-size: 1.2rem;
+    margin: 10px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.task button {
+    /* flex: 1; */
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.task .checkTask {
+    color: rgb(59, 205, 134);
+    margin-right: 5px;
+    border: solid 2px rgb(59, 205, 134);
+    font-size: 1.3rem;
+}
+
+.task .checkTask:hover {
+    background-color: rgb(59, 205, 134);
+    color: white;
+}
+
+.task .deleteTask {
+    color: #c24672;
+    margin-right: 5px;
+    border: solid 2px #c24672;
+    font-size: 1.1rem;
+}
+
+.task .deleteTask:hover {
+    background-color: #c24672;
+    color: white;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Lora:ital@1&Pacifico&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    background-size: 100% 120%;
+    background-position: 0% 10%;
+    height: 50em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Style the video: 100% width and height to cover the entire window */
+
+#myVideo {
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+/* Add some content at the bottom of the video/page */
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Style the button used to pause/play the video */
+
+#myBtn {
+    margin-left: 50px;
+    width: 160px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 6px 6px;
+    border: none;
+    background: rgba(0, 0, 0, 0.513);
+    color: rgba(255, 255, 255, 0.805);
+    cursor: pointer;
+    border: solid 2px white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.754);
+    transition: .5s;
+}
+
+#myBtn:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgb(98, 96, 96);
+}
+
+.container {
+    width: 60%;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.5);
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    border-radius: 30px;
+    box-shadow: 0 0 3px;
+}
+
+#timer {
+    display: flex;
+    font-family: 'Noto Serif Khojki', serif;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.554);
+    width: 70%;
+    font-size: 72px;
+    text-align: 35px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    margin: 0 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+button i {
+    font-size: 2rem;
+    padding: 10px;
+    color: white;
+}
+
+#play {
+    background-color: rgba(34, 238, 170);
+    width: 60px;
+    border-radius: 30px;
+}
+
+#pause {
+    background-color: #fbb845ca;
+    width: 60px;
+    border-radius: 30px;
+}
+
+#reset {
+    background-color: rgba(255, 0, 144);
+    width: 60px;
+    border-radius: 30px;
+}
